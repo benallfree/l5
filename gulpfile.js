@@ -16,8 +16,8 @@ elixir(function(mix) {
       '../../bower/bootstrap/dist/css/bootstrap.min.css',
     ]);
     mix.scripts([
-      '../../bower/bootstrap/dist/js/bootstrap.min.js',
       '../../bower/jquery/dist/jquery.min.js',
+      '../../bower/bootstrap/dist/js/bootstrap.min.js',
     ]);
     mix.copy('resources/bower/bootstrap/dist/fonts', 'public/fonts');
     

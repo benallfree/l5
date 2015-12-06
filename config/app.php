@@ -145,7 +145,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         
-        // Bkwld\LaravelHaml\ServiceProvider::class,
+        Bkwld\LaravelHaml\ServiceProvider::class,
 
     ],
 
